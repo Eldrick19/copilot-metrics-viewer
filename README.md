@@ -128,6 +128,9 @@ docker run -p 8080:80 copilot-metrics-viewer
 ```
 The application will be accessible at http://localhost:8080
 
+### Running and Testing with `launch.json`
+To facilitate development and debugging, you can utilize the `launch.json` configuration for running and testing the application within a devcontainer. This setup allows you to leverage the existing Docker image, ensuring a consistent environment for development and testing. For detailed instructions, refer to the `.vscode/launch.json` file in the repository.
+
 ## License 
 
 This project is licensed under the terms of the MIT open source license. Please refer to [MIT](./LICENSE.txt) for the full terms.
